@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    name: monolith-port
+spec:
+  selector:
+    app: monolith
+  ports:
+   - name: node-port
+     port: 80
+     targetPort: 80
+     nodePort: 10080
+     protocol: TCP
+  type:
+    NodePort
