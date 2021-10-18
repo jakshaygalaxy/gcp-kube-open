@@ -7,12 +7,6 @@ metadata:
     type: front-end
 spec:
   template:
-    metadata:
-      name: nginx-rc
-      labels:
-        app: nginx-src
-        type: front-end
-
    spec:
      containers:
        - name: nginx-web
