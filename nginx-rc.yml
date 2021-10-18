@@ -8,9 +8,9 @@ metadata:
 spec:
   template:
     metadata:
-      name: nginx-rc
+      name: nginx
       labels:
-        app: nginx-rc
+        app: nginx
    spec:
      containers:
        - name: nginx-web
