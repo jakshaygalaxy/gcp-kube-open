@@ -8,7 +8,7 @@ metadata:
 spec:
   template:
     metadata:
-      name: nginx-test-rc
+      name: nginx-rc
    spec:
      containers:
        - name: nginx-web
